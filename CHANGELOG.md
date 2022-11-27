@@ -12,6 +12,11 @@ follows:
    releases, and Linux kernel updates. They're also made to fix bugs and add
    features to the build infrastructure.
 
+## v1.21.2
+
+* Changes
+  * Enabled QMI
+
 ## v1.21.1
 
 * Changes

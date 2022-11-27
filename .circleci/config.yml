@@ -15,7 +15,6 @@ workflows:
       - build-tools/get-br-dependencies:
           exec:
             <<: *exec
-          context: org-global
           filters:
             tags:
               only: /.*/
@@ -23,22 +22,14 @@ workflows:
           exec:
             <<: *exec
           resource-class: large
-          context: org-global
           requires:
             - build-tools/get-br-dependencies
           filters:
             tags:
               only: /.*/
-      - build-tools/build-test:
-          exec:
-            <<: *exec
-          context: org-global
-          requires:
-            - build-tools/build-system
       - build-tools/deploy-system:
           exec:
             <<: *exec
-          context: org-global
           requires:
             - build-tools/build-system
           filters:
