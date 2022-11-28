@@ -12,6 +12,11 @@ follows:
    releases, and Linux kernel updates. They're also made to fix bugs and add
    features to the build infrastructure.
 
+## v1.21.4
+
+* Changes
+  * Enabled USB networking modules
+
 ## v1.21.3
 
 * Changes
