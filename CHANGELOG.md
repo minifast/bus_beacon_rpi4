@@ -12,6 +12,11 @@ follows:
    releases, and Linux kernel updates. They're also made to fix bugs and add
    features to the build infrastructure.
 
+## v1.21.6
+
+* Changes
+  * Remove extraneous network configuration
+
 ## v1.21.5
 
 * Changes
